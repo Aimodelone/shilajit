@@ -1,0 +1,170 @@
+/*----------------------------------------*/
+/*  21. accordion
+/*----------------------------------------*/
+.accordion-inner {
+    padding: 120px 110px;
+    @include respond(lg) {
+        padding: 120px 60px;
+    }
+    @include respond(xs) {
+        padding: 120px 20px;
+    }
+}
+.accordion_box {
+	position: relative;
+    list-style: none;
+}
+.accordion_box .block {
+	position: relative;
+	overflow: hidden;
+}
+.accordion_box .block:last-child {
+	margin-bottom: 0;
+}
+.accordion_box .block .acc-btn {
+	color: var(--color-white);
+	position: relative;
+	font-weight: 700;
+	font-size: 24px;
+	cursor: pointer;
+	padding: 24px 0;
+    padding-right: 70px;
+    @include transition(all 500ms ease);
+    @include respond(md) {
+        font-size: 20px;
+    }
+
+}
+.accordion_box .block.active-block .acc-btn .arrow::before {
+    @include transform(rotate(45deg));
+}
+.accordion_box .block .content {
+	position: relative;
+    padding-right: 40px;
+    padding-bottom: 35px;
+    p {
+        color: #fff;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+    a {
+        color: var(--color-white);
+        font-size: 18px;
+        font-weight: 700;
+        &:hover {
+            span {
+                @include transform(translate(4px, -2px));
+            }
+        }
+        span {
+            margin-left: 10px;
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            @include transition(.3s);
+        }
+    }
+}
+.accordion_box .block .acc_body {
+	position: relative;
+	display: none;
+}
+.accordion_box .block .number {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    font-size: 20px;
+    color: var(--color-white);
+    font-weight: 700;
+}
+.accordion_box .block .acc_body.current {
+	display: block;
+}
+
+.xb-accordion {
+    .block {
+        background-color: #252525;
+        margin-top: 20px;
+        overflow: unset;
+        &.active-block {
+            .acc-btn .arrow::before {
+                content: "\f068";
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                color: var(--color-primary);
+            }
+            .acc-btn .arrow {
+                border-color: var(--color-primary);
+            }
+        }
+        .acc-btn {
+            color: var(--color-white);
+            padding: 26px 70px;
+            padding-left: 55px;
+            font-size: 22px;
+            font-family: var(--font-heading);
+            text-transform: uppercase;
+            @include respond(md) {
+                font-size: 18px;
+            }
+            @include respond(xs) {
+                padding: 20px 20px;
+                font-size: 15px;
+                padding-right: 30px;
+            }
+            .arrow {
+                position: absolute;
+                right: 30px;
+                top: 20px;
+                width: 40px;
+                height: 40px;
+                @include border-radius(50%);
+                border: 2px solid var(--color-white);
+                @include transition(.3s);
+                @include respond(xs) {
+                    right: 15px;
+                }
+                &::before {
+                    top: 5px;
+                    left: 12px;
+                    font-size: 16px;
+                    color: var(--color-white);
+                    content: "\f067";
+                    font-family: "Font Awesome 5 Pro";
+                    font-weight: 500;
+                    position: absolute;
+                    @include transition(0.6s cubic-bezier(0.165, 0.84, 0.44, 1));   
+                    background-image: none;
+                    width: auto;
+                    height: auto;
+                    right: auto;
+                }
+            }
+        }        
+        .content {
+            padding: 0 70px 30px 30px;
+            @include respond(xs) {
+                padding: 0 50px 30px 20px;
+            }
+            p {
+                line-height: 30px;
+                font-weight: 500;
+            }
+            ul {
+                line-height: 30px;
+                list-style: inside;
+                line-height: 30px;
+                color: var(--color-white);
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+/*-----------------------------------------------------------------------------------
+
+    Project Name: Ovix - Digital Agency Creative Portfolio Template
+    Author: XpressBuddy -->> (https://themeforest.net/user/xpressbuddy)
+    Support: support@xpressbuddy.com
+    Description: Ovix - Digital Agency Creative Portfolio Template
+    Developer: Mohammad Wasim Mia -> contact@xpressbuddy.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+	01. Theme default CSS
+    02. header
+    03. global
+    04. hero
+    05. about
+    06. services
+    07. counter
+    08. marquee
+    09. team
+    10. cta
+    11. project
+    12. award
+    13. testimonial
+    14. blog
+    15. careear
+    16. feature
+    17. brand
+    18. funfact
+    19. portfolio
+    20. contact
+    21. breadcrumb
+    22. whyus
+    23. career
+    24. story
+    25. shop
+    26. faq
+    27. backtotop
+    28. mobile-menu
+    29. preloader
+
+-----------------------------------------------------------------------------------*/
+// abstracts scss
+@import
+    'abstracts/variables',
+    'abstracts/mixins';
+
+// base scss
+@import 
+    'base/fonts',
+    'base/base',
+    'base/spacing',
+    'base/typography',
+    'base/animation',
+    'base/overlay';
+
+// layout scss
+@import 
+    'layout/header',
+    'layout/navigation';
+ 
+// components scss
+@import 
+    'components/sec-title',
+    'components/global',
+    'components/hero',
+    'components/popular-product',
+    'components/about',
+    'components/feature',
+    'components/shop',
+    'components/testimonial',
+    'components/pricing',
+    'components/accordion',
+    'components/brand',
+    'components/blog',
+    'components/contact',
+    'components/instagram',
+    'components/breadcrumb',
+    'components/buttons',
+    'components/backtotop',
+    'components/mobile-menu',
+    'components/sidebar',
+    'components/search',
+    'components/overlay-menu',
+    'components/preloader';
+
+
+// layout scss
+@import
+    'layout/footer';
+ 

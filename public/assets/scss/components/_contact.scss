@@ -1,0 +1,159 @@
+.xb-contact {
+    padding: 80px;
+    background-color: #fff;
+    @include respond(lg) {
+        padding: 60px 40px;
+    }
+}
+.contact-mt--255 {
+    margin-top: -255px;
+}
+.mt-md-30 {
+    @include respond(md) {
+        margin-top: 30px;
+    }
+}
+.contact-title {
+    span {
+        text-transform: uppercase;
+        color: #060606;
+        font-family: var(--font-heding);
+        font-weight: 700;
+        font-size: 14px;
+        display: inline-block;
+        margin-bottom: 20px;
+        img {
+            margin-right: 6px;
+            @include transform(translateY(-1px));
+        }
+    }
+    h3 {
+        font-size: 22px;
+        text-transform: uppercase;
+        
+    }
+}
+.contact-from {
+    .xb-item {
+        &--field {
+            margin-bottom: 20px;
+            position: relative;
+            & > span,
+            .icon {
+                position: absolute;
+                top: 19px;
+                left: 20px;
+                display: inline-block;
+                line-height: 1;
+                z-index: 1;
+            }
+            input,
+            textarea {
+                padding: 15px 46px 18px;
+                height: 60px;
+                font-size: 14px;
+                @include placeholder(#B1B4BA);
+                @include transition(.3s);
+                &:focus {
+                    background-color: #F5F5F5;
+                }
+            }
+            textarea {
+                min-height: 137px;
+                padding: 14px 46px 18px;
+            }
+            .nice-select {
+                border-color: #F5F5F5;
+                padding: 0 46px;
+                margin-bottom: 20px;
+                &:focus {
+                    border-color: #F5F5F5;
+                    background-color: #F5F5F5;
+                }
+            }
+        }
+    }
+    .thm-btn {
+        background-color: transparent;
+        padding: 20px 50px;
+    }
+}
+.contact-info {
+    background-color: var(--color-white);
+    .xb-item {
+        &--head {
+            padding: 75px 80px;
+            padding-bottom: 38px;
+            @include respond(lg) {
+                padding: 60px 50px 38px;
+            }
+        }
+        &--address {
+            padding-bottom: 22px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #F1F1F1;
+            h3 {
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                img {
+                    margin-right: 9px;
+                }
+            }
+        }
+        &--open {
+            a {
+                color: currentColor;
+                text-decoration: underline;
+                margin-top: 14px;
+                display: inline-block;
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+        &--cta {
+            padding: 65px 80px;
+            padding-top: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            @include respond(lg) {
+                padding: 45px 50px;
+            }
+            p {
+                color: var(--color-white);
+            }
+            h3 {
+                margin-top: 30px;
+                color: var(--color-white);
+                font-size: 45px;
+                @include respond(laptop) {
+                    font-size: 36px;
+                }
+                @include respond(lg) {
+                    font-size: 32px;
+                }
+            }
+        }
+        &--social {
+            li {
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+                a {
+                    width: 50px;
+                    height: 50px;
+                    @include border-radius(50%);
+                    background-color: #F5F5F5;
+                    color: #060606;
+                    font-size: 24px;
+                    @include center;
+                    &:hover {
+                        color: var(--color-white);
+                        background-color: var(--color-primary);
+                    }
+                }
+            }
+        }
+    }
+}
