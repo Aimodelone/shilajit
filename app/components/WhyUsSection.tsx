@@ -58,7 +58,7 @@ export default function WhyUsSection() {
             <div className="xb-why-video pos-rel h-100">
               <a
                 className="popup-video btn-video btn-video-center"
-                href="https://www.youtube.com/watch?v=cRXm1p-CNyk"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
