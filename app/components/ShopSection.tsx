@@ -9,10 +9,11 @@ export default function ShopSection() {
         <div className="ul_li_between mb-25">
           <div className="sec-title sec-title--white sec-title--two mb-30">
             <span className="sub-title">products</span>
-            <h2 className="title">our popular products</h2>
+            <h2 className="title">Our Popular Products</h2>
           </div>
           <div className="shop-carousel ul_li">
             <div className="xb-swiper-arrow xb-swiper-arrow-prev">
+              {/* SVG left arrow */}
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0.892464 13.0607C0.306679 12.4749 0.306679 11.5251 0.892464 10.9393L10.4384 1.3934C11.0242 0.807611 11.9739 0.807611 12.5597 1.3934C13.1455 1.97919 13.1455 2.92893 12.5597 3.51472L4.07444 12L12.5597 20.4853C13.1455 21.0711 13.1455 22.0208 12.5597 22.6066C11.9739 23.1924 11.0242 23.1924 10.4384 22.6066L0.892464 13.0607ZM36.9531 13.5H1.95312V10.5H36.9531V13.5Z"
@@ -21,6 +22,7 @@ export default function ShopSection() {
               </svg>
             </div>
             <div className="xb-swiper-arrow xb-swiper-arrow-next">
+              {/* SVG right arrow */}
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M36.0607 13.0607C36.6464 12.4749 36.6464 11.5251 36.0607 10.9393L26.5147 1.3934C25.9289 0.807611 24.9792 0.807611 24.3934 1.3934C23.8076 1.97919 23.8076 2.92893 24.3934 3.51472L32.8787 12L24.3934 20.4853C23.8076 21.0711 23.8076 22.0208 24.3934 22.6066C24.9792 23.1924 25.9289 23.1924 26.5147 22.6066L36.0607 13.0607ZM0 13.5H35V10.5H0V13.5Z"
@@ -35,39 +37,32 @@ export default function ShopSection() {
           <div className="swiper-wrapper">
             {[
               {
-                title: 'nutraone protine',
-                price: '$90.00',
-                oldPrice: '$100.00',
-                img: '/assets/img/shop/product_06.png',
-                badge: false,
+                title: 'Pure Shilajit Resin – 30g',
+                price: 'KSh 4,999',
+                oldPrice: 'KSh 5,999',
+                img: '/assets/img/shop/abt_product.png',
+                badge: true,
               },
               {
-                title: 'clear whey protein',
-                price: '$88.00',
-                oldPrice: '$98.00',
+                title: 'Shilajit Capsules – 60 count',
+                price: 'KSh 3,499',
+                oldPrice: 'KSh 4,200',
                 img: '/assets/img/shop/product_07.png',
                 badge: false,
               },
               {
-                title: 'strawberry protine',
-                price: '$75.00',
-                oldPrice: '$90.00',
+                title: 'Shilajit Energy Gummies – 30 pack',
+                price: 'KSh 2,999',
+                oldPrice: 'KSh 3,500',
                 img: '/assets/img/shop/product_08.png',
-                badge: true,
+                badge: false,
               },
               {
-                title: 'candy bits protine',
-                price: '$70.00',
-                oldPrice: '$85.00',
+                title: 'Shilajit + Ashwagandha Blend',
+                price: 'KSh 4,799',
+                oldPrice: 'KSh 5,200',
                 img: '/assets/img/shop/product_09.png',
-                badge: false,
-              },
-              {
-                title: 'nutraone protine',
-                price: '$90.00',
-                oldPrice: '$100.00',
-                img: '/assets/img/shop/product_06.png',
-                badge: false,
+                badge: true,
               },
             ].map((product, i) => (
               <div className="swiper-slide" key={i}>
@@ -91,13 +86,13 @@ export default function ShopSection() {
                       <li><i className="fas fa-star"></i></li>
                       <li><i className="fas fa-star"></i></li>
                       <li><i className="fas fa-star-half-alt"></i></li>
-                      <li><span>(40)</span></li>
+                      <li><span>(72)</span></li>
                     </ul>
                   </div>
                   <Link className="xb-item--cart" href="/shop-single">
                     <Image src="/assets/img/icon/bag.svg" alt="Cart" width={24} height={24} />
                   </Link>
-                  {product.badge && <span className="xb-item--badge">-20</span>}
+                  {product.badge && <span className="xb-item--badge">-20%</span>}
                 </div>
               </div>
             ))}

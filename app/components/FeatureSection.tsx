@@ -9,27 +9,27 @@ export default function FeatureSection() {
       <section id="features" className="feature pt-35">
         <div className="container">
           <div className="sec-title sec-title--white text-center sec-title--two mb-55">
-            <span className="sub-title">How It ‘s Work</span>
-            <h2 className="title">the easy way to eat</h2>
+            <span className="sub-title">How It Works</span>
+            <h2 className="title">Experience Pure Wellness, Step by Step</h2>
           </div>
 
           <div className="row mt-none-60">
             {[
               {
                 img: '/assets/img/icon/feat_01.svg',
-                title: 'Ingredient Breakdown',
+                title: 'Sourced from the Himalayas',
               },
               {
                 img: '/assets/img/icon/feat_02.svg',
-                title: 'Targeted Benefits',
+                title: 'Purified & Lab Tested in Kenya',
               },
               {
                 img: '/assets/img/icon/feat_03.svg',
-                title: 'Scientific Mechanisms',
+                title: 'Powerful Cellular Support',
               },
               {
                 img: '/assets/img/icon/feat_04.svg',
-                title: 'Usage Instructions',
+                title: 'Simple Daily Use',
               },
             ].map((item, idx) => (
               <div className="col-lg-3 col-md-6 mt-60" key={idx}>

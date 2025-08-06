@@ -13,31 +13,31 @@ export default function WhyUsSection() {
           <div className="col-xl-6 col-lg-8">
             <div className="xb-why-us">
               <div className="sec-title sec-title--white sec-title--two mb-50">
-                <span className="sub-title">WHY US</span>
-                <h2 className="title">Welcome to purefit</h2>
+                <span className="sub-title">WHY SHILAJIT KENYA</span>
+                <h2 className="title">Unlock Your Natural Vitality</h2>
               </div>
 
               <div className="row mt-none-50">
                 {[
                   {
                     icon: '/assets/img/icon/wus_01.svg',
-                    title: 'Multi Fruits Flavors',
-                    desc: 'Multi Fruits Flavors" typically refers to a blend of various.',
+                    title: 'Pure Himalayan Source',
+                    desc: 'Harvested from the untouched heights of the Himalayas, our Shilajit is 100% natural and free from contaminants.',
                   },
                   {
                     icon: '/assets/img/icon/wus_02.svg',
-                    title: 'Flower Formula',
-                    desc: 'Some flowers have been traditionally used health.',
+                    title: 'Tested for Potency',
+                    desc: 'Each batch is lab-tested for fulvic acid concentration and heavy metal safety, ensuring the highest efficacy.',
                   },
                   {
                     icon: '/assets/img/icon/wus_03.svg',
-                    title: 'Fishbone Diagram',
-                    desc: 'The Fishbone Diagram is a valuable tool in various.',
+                    title: 'Sustainable & Ethical',
+                    desc: 'We partner with ethical harvesters and ensure that our supply chain respects nature and supports local communities.',
                   },
                   {
                     icon: '/assets/img/icon/wus_04.svg',
-                    title: 'drug interactions',
-                    desc: 'These occur when two drugs with similar effects are taken.',
+                    title: 'Trusted by Kenyans',
+                    desc: 'Shilajit Kenya is trusted by health-conscious individuals across the country for enhanced energy, focus, and vitality.',
                   },
                 ].map((item, i) => (
                   <div className="col-lg-6 mt-50" key={i}>

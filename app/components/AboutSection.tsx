@@ -17,8 +17,8 @@ export default function AboutSection() {
               >
                 <div className="about-img">
                   <Image
-                    src="/assets/img/shop/abt_product.png"
-                    alt="Product"
+                    src="/assets/img/shop/abt_product.png" // ← uses existing image
+                    alt="Shilajit Kenya Product"
                     width={500}
                     height={500}
                   />
@@ -41,7 +41,7 @@ export default function AboutSection() {
                     </div>
                   </div>
                 </div>
-                <span className="about-img-title">best seller</span>
+                <span className="about-img-title">Best Seller</span>
               </div>
             </div>
 
@@ -52,8 +52,8 @@ export default function AboutSection() {
                 data-wow-duration=".6s"
               >
                 <div className="sec-title sec-title--white sec-title--two mb-20">
-                  <span className="sub-title">purefit Formula</span>
-                  <h2 className="title">the Science of Our Supplements</h2>
+                  <span className="sub-title">Shilajit Kenya</span>
+                  <h2 className="title">Pure Himalayan Power, Refined for You</h2>
                 </div>
                 <ul className="xb-rating ul_li">
                   <li><i className="fas fa-star"></i></li>
@@ -61,11 +61,11 @@ export default function AboutSection() {
                   <li><i className="fas fa-star"></i></li>
                   <li><i className="fas fa-star"></i></li>
                   <li><i className="fas fa-star-half-alt"></i></li>
-                  <li><span>(5.5)</span></li>
+                  <li><span>(4.8)</span></li>
                 </ul>
 
                 <div className="about-list-inner mt-30">
-                  <span>Active Ingredients:</span>
+                  <span>Key Benefits:</span>
                   <ul className="xb-about-list list-unstyled">
                     <li>
                       <Image
@@ -74,7 +74,7 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      No artificial sweeteners, dairy.
+                      100% Pure Himalayan Shilajit Resin
                     </li>
                     <li>
                       <Image
@@ -83,7 +83,7 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      Tastes like dessert without sugars.
+                      Boosts natural energy, stamina & focus
                     </li>
                     <li>
                       <Image
@@ -92,7 +92,7 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      Organic almond Butter, Lecithin.
+                      Rich in fulvic acid & 85+ trace minerals
                     </li>
                     <li>
                       <Image
@@ -101,7 +101,7 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      10G of collagen protein from grass-fed.
+                      Enhances immunity & muscle recovery
                     </li>
                     <li>
                       <Image
@@ -110,7 +110,7 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      No energy crashes. Collagen Protein.
+                      Lab-tested & sustainably harvested
                     </li>
                     <li>
                       <Image
@@ -119,13 +119,13 @@ export default function AboutSection() {
                         width={16}
                         height={16}
                       />
-                      Formulated to reduce blood sugar intact.
+                      No fillers, preservatives, or additives
                     </li>
                   </ul>
                 </div>
 
                 <div className="about-cta ul_li mt-45">
-                  <h3>$89.00</h3>
+                  <h3>KSh 4,999</h3>
                   <Link className="xb-btn" href="/shop-single">BUY NOW</Link>
                 </div>
               </div>

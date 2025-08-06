@@ -60,7 +60,7 @@ const BlogSection = () => {
           pagination={{ clickable: true }}
           spaceBetween={30}
           breakpoints={{
-            0: { slidesPerView: 1 },      // Mobile full-width
+            0: { slidesPerView: 1 },
             640: { slidesPerView: 1.2 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },

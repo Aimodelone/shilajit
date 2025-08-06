@@ -4,47 +4,47 @@ import Image from 'next/image';
 const pricingPlans = [
   {
     id: 'essential',
-    heading: 'essential',
-    price: '$80',
-    priceNote: 'Per Bottle',
-    title: '1 Person User - $80',
+    heading: 'Essential',
+    price: 'KES 4,000',
+    priceNote: 'Per Jar',
+    title: '1-Month Supply',
     icon: '/assets/img/icon/prc_icon.svg',
     features: [
-      '1 Person User purefit',
-      '1 x 250 veggie caps bottle',
-      '1 x 50 Capsules Per Bottle',
+      '1 Jar of Shilajit Kenya',
+      '30g Pure Resin',
+      'Ideal for Beginners',
     ],
     disabledFeature: 'Free Shipping',
     active: false,
   },
   {
     id: 'premium',
-    heading: 'premium',
-    price: '$60',
-    priceNote: 'Per Bottle',
-    title: '3 Person User - $180',
+    heading: 'Premium',
+    price: 'KES 3,600',
+    priceNote: 'Per Jar',
+    title: '3-Month Supply (KES 10,800)',
     icon: '/assets/img/icon/prc_icon2.svg',
     features: [
-      '3 Person User purefit',
-      '3 x 250 veggie caps bottle',
-      '3 x 50 Capsules Per Bottle',
+      '3 Jars of Shilajit Kenya',
+      '3 x 30g Pure Resin',
+      'Boosted Strength Formula',
       'Free Shipping',
     ],
     disabledFeature: null,
     active: true,
-    guarantee: '2 Years Money Back Guaranteed',
+    guarantee: '30-Day Money Back Guarantee',
   },
   {
     id: 'enterprise',
-    heading: 'enterprise',
-    price: '$50',
-    priceNote: 'Per Bottle',
-    title: '6 Person User - $300',
+    heading: 'Family Pack',
+    price: 'KES 3,300',
+    priceNote: 'Per Jar',
+    title: '6-Month Supply (KES 19,800)',
     icon: '/assets/img/icon/prc_icon.svg',
     features: [
-      '6 Person User purefit',
-      '6 x 250 veggie caps bottle',
-      '6 x 50 Capsules Per Bottle',
+      '6 Jars of Shilajit Kenya',
+      '6 x 30g Pure Resin',
+      'Best Value Deal',
       'Free Shipping',
     ],
     disabledFeature: null,
@@ -57,8 +57,8 @@ export default function PricingSection() {
     <section id="pricing" className="pricing z-1 pt-140 pb-140">
       <div className="container">
         <div className="sec-title sec-title--white sec-title--two text-center mb-90">
-          <span className="sub-title">pricing plane</span>
-          <h2 className="title">Choose Your Packages</h2>
+          <span className="sub-title">Pricing Plans</span>
+          <h2 className="title">Choose Your Package</h2>
         </div>
         <div className="row g-0 align-items-center mt-none-60">
           {pricingPlans.map((plan, index) => (
@@ -110,7 +110,9 @@ export default function PricingSection() {
                   />
                   BUY NOW
                 </a>
-                {plan.guarantee && <span>{plan.guarantee}</span>}
+                {plan.guarantee && (
+                  <span className="xb-item--guarantee">{plan.guarantee}</span>
+                )}
               </div>
             </div>
           ))}

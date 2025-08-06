@@ -30,8 +30,8 @@ export default function HeroSection() {
             {/* Hero Content */}
             <div className="hero-content wow fadeInUp" data-wow-delay="0ms" data-wow-duration=".6s">
               <div className="sec-title sec-title--white sec-title--big sec-title--two mb-35">
-                <span className="sub-title">fresh purefit</span>
-                <h2 className="title">build up Your Life with purefit</h2>
+                <span className="sub-title">Premium Shilajit Resin</span>
+                <h3 className="title">Unlock Natural Energy with Pure Shilajit</h3>
               </div>
               <Link className="xb-btn" href="/shop-single">
                 BUY NOW
@@ -41,15 +41,15 @@ export default function HeroSection() {
             {/* Hero Info */}
             <div className="hero-info wow fadeInUp" data-wow-delay="300ms" data-wow-duration=".6s">
               <p className="mb-75">
-                At purefit, we&apos;re dedicated to helping you on a transformative health journey. Our mission
+              At Shilajit Kenya, we bring you the purest Himalayan Shilajit resin — a powerful natural substance used for centuries in boosting natural Energy.
               </p>
               <div className="hero-info-feature mb-40">
                 <h2>100%</h2>
-                <span>Natural Ingredients</span>
+                <span>Natural & Organic</span>
               </div>
               <div className="hero-info-feature mb-50">
                 <h2>100%</h2>
-                <span>Increased Energy</span>
+                <span>Rich in Fulvic Acid & 85+ Minerals</span>
               </div>
               <div className="hero-review">
                 <ul className="hero-rating ul_li">
@@ -61,7 +61,7 @@ export default function HeroSection() {
                   <li>4.9</li>
                 </ul>
                 <p>
-                  From 200+ <span>reviews</span>
+                  From 2000+ <span>reviews and happy users</span>
                 </p>
               </div>
             </div>
