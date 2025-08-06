@@ -19,13 +19,11 @@ const InstagramSection = () => {
     <section className="instagram">
       <div className="container">
         <div className="instagram-inner ul_li">
-          {/* Title */}
           <div className="instagram-title">
             <a href="#!"><i className="fab fa-instagram"></i></a>
             <h3>follow us on Instagram & get promotions</h3>
           </div>
 
-          {/* Slider */}
           <div className="instagram-slider-inner">
             <Swiper
               slidesPerView={2}
@@ -40,21 +38,15 @@ const InstagramSection = () => {
               className="instagram-slider"
             >
               {images.map((img, i) => (
-                <SwiperSlide
-                  key={i}
-                  className="swiper-slide xb-instagram xb-hover-zoom"
-                >
-                  {/* Ensure parent has aspect ratio and position */}
-                  <div className="xb-item--img relative w-full aspect-square overflow-hidden rounded">
+                <SwiperSlide key={i} className="swiper-slide xb-instagram xb-hover-zoom">
+                  <div className="xb-item--img">
                     <Image
                       src={`/assets/img/instagram/${img}`}
-                      alt={`Instagram ${i}`}
-                      fill
-                      className="object-cover transition-transform duration-300"
+                      alt="Instagram"
+                      width={220}
+                      height={220}
                     />
                   </div>
-
-                  {/* Hover content */}
                   <div className="xb-item--holder">
                     <a className="xb-item--icon" href="#!">
                       <i className="fab fa-instagram"></i>

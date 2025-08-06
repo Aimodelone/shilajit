@@ -14,15 +14,15 @@ export default function HeroSection() {
               <Image
                 src="/assets/img/shop/hero_product2.png"
                 alt="Hero Product"
-                width={400}
+                width={450}
                 height={400}
               />
               <div className="hero-img-shape">
                 <div className="shape shape--1">
-                  <Image src="/assets/img/shape/h_shape1.png" alt="Shape 1" width={80} height={80} />
+                  <Image src="/assets/img/shape/h_shape1.png" alt="Shape 1" width={250} height={100} />
                 </div>
                 <div className="shape shape--2">
-                  <Image src="/assets/img/shape/h_shape2.png" alt="Shape 2" width={80} height={80} />
+                  <Image src="/assets/img/shape/h_shape2.png" alt="Shape 2" width={250} height={100} />
                 </div>
               </div>
             </div>

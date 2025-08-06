@@ -8634,20 +8634,3 @@ blockquote {
 /*# sourceMappingURL=main.css.map */
 
 
-.xb-item--img {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.xb-hover-zoom .xb-item--img img {
-  transition: transform 0.4s ease;
-}
-
-.xb-hover-zoom:hover .xb-item--img img {
-  transform: scale(1.08);
-}
-
-
