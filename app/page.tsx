@@ -22,8 +22,6 @@ export default function Home() {
       <ShopSection />
       <WhyUsSection />
       <TestimonialSection />
-      <PricingSection />
-      <BrandSection />
       <BlogSection />
       <InstagramSection />
     </main>

@@ -8,7 +8,7 @@ export default function TestimonialSection() {
       quote: '/assets/img/icon/quote.svg',
       text: `"Since I started using Shilajit Kenya, my energy levels have skyrocketed. I'm more alert and focused, and it's transformed my daily productivity. Highly recommended!"`,
       rating: '/assets/img/icon/tst_rating.png',
-      name: 'KENNETH JOSHUA',
+      name: 'KEVIN NJOROGE',
       date: 'Aug 3, 2025',
     },
     {
@@ -16,7 +16,7 @@ export default function TestimonialSection() {
       quote: '/assets/img/icon/quote.svg',
       text: `"As a fitness enthusiast, Shilajit Kenya is a game-changer. It boosts my workout endurance and recovery, so I can push harder and feel great the next day."`,
       rating: '/assets/img/icon/tst_rating.png',
-      name: 'Tomas Alexander',
+      name: 'Tomas Hamadi',
       date: 'Aug 1, 2025',
     },
     {
@@ -24,7 +24,7 @@ export default function TestimonialSection() {
       quote: '/assets/img/icon/quote.svg',
       text: `"I'm a busy professional, and stress used to take a toll on my health. Shilajit Kenya has helped me manage stress, and I feel calmer and more in control. It's a lifeline in my demanding life."`,
       rating: '/assets/img/icon/tst_rating.png',
-      name: 'Richard Charles',
+      name: 'Abubakar Ali',
       date: 'Jul 30, 2025',
     },
   ];
@@ -37,7 +37,7 @@ export default function TestimonialSection() {
       <div className="container">
         <div className="sec-title sec-title--white sec-title--two text-center mb-55">
           <span className="sub-title">testimonial</span>
-          <h2 className="title">15k+ satisfied users</h2>
+          <h2 className="title">500+ satisfied users</h2>
         </div>
 
         <div className="testimonial-slider2 swiper-container">
