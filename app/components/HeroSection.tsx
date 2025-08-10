@@ -11,20 +11,13 @@ export default function HeroSection() {
           <div className="hero-inner ul_li_between">
             {/* Hero Image */}
             <div className="hero-img wow fadeInUp" data-wow-delay="150ms" data-wow-duration=".6s">
-              <Image
+            <Image
                 src="/assets/img/shop/hero_product2.png"
                 alt="Hero Product"
                 width={450}
                 height={400}
+                className="hero-img-mobile"
               />
-              <div className="hero-img-shape">
-                <div className="shape shape--1">
-                  <Image src="/assets/img/shape/h_shape1.png" alt="Shape 1" width={250} height={100} />
-                </div>
-                <div className="shape shape--2">
-                  <Image src="/assets/img/shape/h_shape2.png" alt="Shape 2" width={250} height={100} />
-                </div>
-              </div>
             </div>
 
             {/* Hero Content */}

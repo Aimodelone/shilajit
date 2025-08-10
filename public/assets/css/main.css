@@ -8633,4 +8633,23 @@ blockquote {
 
 /*# sourceMappingURL=main.css.map */
 
+/* Mobile styles (phones & small tablets) */
 
+
+  /* Center text content */
+
+
+  /* Add spacing between sections */
+
+
+  /* Center stars and review text */
+
+
+  @media (max-width: 767px) {
+    .hero-img > img {
+      height: auto;
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
