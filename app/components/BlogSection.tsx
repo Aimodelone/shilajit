@@ -13,21 +13,21 @@ const blogPosts = [
     title: 'Your Ultimate Guide to Dietary Supplements..',
     category: 'supplement',
     img: 'img_01.jpg',
-    href: '/blog-single',
+    href: '/blog',
   },
   {
     date: { day: '18', month: 'nov' },
     title: 'The Role of Supplements in Athletic Performance..',
     category: 'supplement',
     img: 'img_02.jpg',
-    href: '/blog-single',
+    href: '/blog',
   },
   {
     date: { day: '20', month: 'oct' },
     title: 'Weight Management with Supplements Health..',
     category: 'supplement',
     img: 'img_03.jpg',
-    href: '/blog-single',
+    href: '/blog',
   },
 ];
 

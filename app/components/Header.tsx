@@ -43,7 +43,7 @@ export default function Header() {
                         <a className="section-link" href="#blog"><span>Blog</span></a>
                         <ul className="submenu">
                           <li><Link href="/blog"><span>Blog</span></Link></li>
-                          <li><Link href="/blog-single"><span>Blog Details</span></Link></li>
+                          <li><Link href="/blog"><span>Blog Details</span></Link></li>
                         </ul>
                       </li>
                       <li><a className="section-link" href="#contact"><span>Contact</span></a></li>
@@ -86,8 +86,8 @@ export default function Header() {
                       <li className="menu-item menu-item-has-children">
                         <a className="section-link" href="#blog"><span>Blog</span></a>
                         <ul className="sub-menu">
-                          <li><a href="#"><span>Blog</span></a></li>
-                          <li><a href="#"><span>Blog Details</span></a></li>
+                          <li><a href="/blog"><span>Blog</span></a></li>
+                          <li><a href="/blog"><span>Blog Details</span></a></li>
                         </ul>
                       </li>
                       <li className="menu-item"><a className="section-link" href="#contact"><span>Contact</span></a></li>
