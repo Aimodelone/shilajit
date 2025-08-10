@@ -8646,10 +8646,15 @@ blockquote {
 
 
   @media (max-width: 767px) {
-    .hero-img > img {
-      height: auto;
-      max-width: 400px;
-      margin: 0 auto;
-      display: block;
+    .hero-img {
+      display: flex;              /* ensure centering */
+      justify-content: center;
+    }
+  
+    .hero-img img {
+      width: 100%;                 /* let it scale */
+      max-width: 1080px;           /* bigger limit */
+      height: auto !important;     /* override inline */
     }
   }
+  
