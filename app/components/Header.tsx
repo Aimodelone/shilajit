@@ -34,22 +34,11 @@ export default function Header() {
                     <ul>
                       <li className="menu-item-has-children active">
                         <a className="section-link" href="#home"><span>Home</span></a>
-                        <ul className="submenu">
-                          <li><Link href="/"><span>Home Style 01</span></Link></li>
-                          <li className="active"><Link href="/home-2"><span>Home Style 02</span></Link></li>
-                        </ul>
                       </li>
-                      <li><a className="section-link" href="#features"><span>Features</span></a></li>
                       <li className="menu-item-has-children">
                         <a className="section-link" href="#shop"><span>Shop</span></a>
-                        <ul className="submenu">
-                          <li><Link href="/shop"><span>Products</span></Link></li>
-                          <li><Link href="/shop-single"><span>Single Product</span></Link></li>
-                          <li><Link href="/cart"><span>Cart</span></Link></li>
-                          <li><Link href="/checkout"><span>Checkout</span></Link></li>
-                        </ul>
                       </li>
-                      <li><a className="section-link" href="#pricing"><span>Pricing</span></a></li>
+                      <li><a className="section-link" href="#shop"><span>Pricing</span></a></li>
                       <li className="menu-item-has-children">
                         <a className="section-link" href="#blog"><span>Blog</span></a>
                         <ul className="submenu">
@@ -64,48 +53,6 @@ export default function Header() {
               </div>
 
               <div className="menu-right ul_li">
-                <div className="d-none d-lg-block">
-                  <div className="header__right ul_li ml-50">
-                    <div className="header-shop-cart">
-                      <a href="#"><img src="/assets/img/icon/bag.svg" alt="" /><span className="mini-cart-count">2</span></a>
-                      <div className="header-mini-cart">
-                        <ul className="woocommerce-mini-cart cart_list product_list_widget list-wrap">
-                          <li className="woocommerce-mini-cart-item d-flex align-items-center">
-                            <a href="#" className="remove remove_from_cart_button">×</a>
-                            <div className="mini-cart-img">
-                              <img src="/assets/img/shop/product_02.png" alt="Product" />
-                            </div>
-                            <div className="mini-cart-content">
-                              <h4 className="product-title"><a href="#">xplode powder</a></h4>
-                              <div className="mini-cart-price">1 × <span className="woocommerce-Price-amount amount">$49</span></div>
-                            </div>
-                          </li>
-                          <li className="woocommerce-mini-cart-item d-flex align-items-center">
-                            <a href="#" className="remove remove_from_cart_button">×</a>
-                            <div className="mini-cart-img">
-                              <img src="/assets/img/shop/product_03.png" alt="Product" />
-                            </div>
-                            <div className="mini-cart-content">
-                              <h4 className="product-title"><a href="#">creatine powder</a></h4>
-                              <div className="mini-cart-price">2 × <span className="woocommerce-Price-amount amount">$69</span></div>
-                            </div>
-                          </li>
-                        </ul>
-                        <p className="woocommerce-mini-cart__total">
-                          <strong>Subtotal:</strong>
-                          <span className="woocommerce-Price-amount">$149</span>
-                        </p>
-                        <p className="checkout-link">
-                          <a href="#" className="button wc-forward">View cart</a>
-                          <a href="#" className="button checkout wc-forward">Checkout</a>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="header-search">
-                      <a className="header-search-btn" href="#"><img src="/assets/img/icon/search.svg" alt="" /></a>
-                    </div>
-                  </div>
-                </div>
                 <div className="header-bar-mobile header__bar d-lg-none">
                   <a className="xb-nav-mobile" href="#">
                     <div className="header__bar-icon">
@@ -132,22 +79,10 @@ export default function Header() {
                     <ul className="xb-menu-primary clearfix">
                       <li className="menu-item menu-item-has-children active">
                         <a className="section-link" href="#home"><span>Home</span></a>
-                        <ul className="sub-menu">
-                          <li className="active"><a href="#"><span>Home Style 01</span></a></li>
-                          <li><a href="#"><span>Home Style 02</span></a></li>
-                        </ul>
                       </li>
-                      <li className="menu-item"><a className="section-link" href="#features"><span>Features</span></a></li>
                       <li className="menu-item menu-item-has-children">
                         <a className="section-link" href="#shop"><span>Shop</span></a>
-                        <ul className="sub-menu">
-                          <li><a href="#"><span>Products</span></a></li>
-                          <li><a href="#"><span>Single Product</span></a></li>
-                          <li><a href="#"><span>Cart</span></a></li>
-                          <li><a href="#"><span>Checkout</span></a></li>
-                        </ul>
                       </li>
-                      <li className="menu-item"><a className="section-link" href="#pricing"><span>Pricing</span></a></li>
                       <li className="menu-item menu-item-has-children">
                         <a className="section-link" href="#blog"><span>Blog</span></a>
                         <ul className="sub-menu">
